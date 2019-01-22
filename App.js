@@ -29,7 +29,7 @@ class App extends Component{
                 <Header/>
                 <table>
                     <tbody>
-                    {this.state.data.map((person, i) => <TableRow key = {i} data = {person} />)}
+                    { this.state.data.map((person, i) => <TableRow key = {i} data = {person} /> )}
                     </tbody>
                 </table>
             </div>
